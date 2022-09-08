@@ -215,7 +215,7 @@ local SetupsTable = {
 	Bank = {
 		Origin = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3),
 		ZMultiplier = 3,
-		XMultiplier = 9.32737905309,
+		XMultiplier = -9.32737905309,
 		PerRow = 10,
 		Rows = 4,
 	},
