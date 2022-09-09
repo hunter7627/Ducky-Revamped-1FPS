@@ -51,7 +51,7 @@ if Testing == false then
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	end)
 	game:GetService("RunService"):Set3dRenderingEnabled(false)
-	setfpscap(1)
+	setfpscap(5)
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MsorkyScripts/OpenSourceAntiCheat/main/AntiCheatBypass.txt"))()
@@ -214,15 +214,15 @@ local BringLocations = {
 local SetupsTable = {
 	Bank = {
 		Origin = CFrame.new(-386.826202, 21.2503242, -325.340912, 0.998742342, 0, -0.0501373149, 0, 1, 0, 0.0501373149, 0, 0.998742342)*CFrame.new(0,0,-3),
-		ZMultiplier = 21,
-		XMultiplier = 11,
+		ZMultiplier = 3,
+		XMultiplier = 8,
 		PerRow = 10,
 		Rows = 4,
 	},
 	Admin = {
-		Origin = CFrame.new(-828.583435, -39.3992118, -560.1515502, -0.99998939, 2.69316498e-08, -0.00460755778, 2.6944301e-08, 1, -2.68358624e-09, 0.00460755778, -2.80770518e-09, -0.99998939),
-		ZMultiplier = 3
-		XMultiplier = 10,
+		Origin = CFrame.new(-834.185852, -39.399211883, -557.70446777, -0.99998939, 2.69316498e-08, -0.00460755778, 2.6944301e-08, 1, -2.68358624e-09, 0.00460755778, -2.80770518e-09, -0.99998939),
+		ZMultiplier = 12.6,
+		XMultiplier = 18.25,
 		PerRow = 10,
 		Rows = 4,
 	},
@@ -698,3 +698,4 @@ Services["Players"].PlayerAdded:Connect(function(Player)
 		Initiate()
 	end
 end)
+-- credits to ducky for the script :)
