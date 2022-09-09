@@ -300,13 +300,13 @@ local function Setup(Type,Debugmode)
 		local XAxis 
 		local ZAxis
 		local i
-		if PointInTable <= 10 then
+		if PointInTable <= 5 then
 			i = 1
-		elseif PointInTable <= 20 then
+		elseif PointInTable <= 10 then
 			i = 2
-		elseif PointInTable <= 30 then
+		elseif PointInTable <= 15 then
 			i = 3
-		elseif PointInTable <= 40 then
+		elseif PointInTable <= 20 then
 			i = 4
 		end
 
