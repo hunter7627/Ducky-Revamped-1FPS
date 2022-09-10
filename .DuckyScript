@@ -557,7 +557,7 @@ local function Initiate()
 					CurrAnim:Stop()
 				end
 				local Anim = Instance.new("Animation")
-				Anim.AnimationId = "https://www.roblox.com/library/2732609088/Default-Dance"
+				Anim.AnimationId = "rbxassetid://2732609088"
 				CurrAnim = game.Players.LocalPlayer.Character.Humanoid.Animator:LoadAnimation(Anim)
 				CurrAnim:Play()
 				CurrAnim:AdjustSpeed()
