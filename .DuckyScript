@@ -496,7 +496,7 @@ local function Initiate()
 					wait(1)
 					setfpscap(60)	
 				end
-			elseif Args[1] == ".stopdrop" then
+			elseif Args[1] == ".stop" then
 				Drop(false)
 			elseif Args[1] == ".reset" then
 				if Variables["Player"].Character then
@@ -552,12 +552,12 @@ local function Initiate()
 				CurrAnim = game.Players.LocalPlayer.Character.Humanoid.Animator:LoadAnimation(Anim)
 				CurrAnim:Play()
 				CurrAnim:AdjustSpeed()
-			elseif Message == ".monkey" then
+			elseif Message == ".default" then
 				if CurrAnim and CurrAnim.IsPlaying then
 					CurrAnim:Stop()
 				end
 				local Anim = Instance.new("Animation")
-				Anim.AnimationId = "http://www.roblox.com/asset/?id=3333499508"
+				Anim.AnimationId = "http://www.roblox.com/asset/?id=2732609088"
 				CurrAnim = game.Players.LocalPlayer.Character.Humanoid.Animator:LoadAnimation(Anim)
 				CurrAnim:Play()
 				CurrAnim:AdjustSpeed()
