@@ -444,13 +444,13 @@ local function Initiate()
 						CmdSettings[Var] = nil
 					end
 					CmdSettings = {}
-					setfpscap(60)
+					setfpscap(500)
 					wait(1)
-					setfpscap(60)
+					setfpscap(500)
 					wait(1)
-					setfpscap(60)
+					setfpscap(500)
 					wait(1)
-					setfpscap(60)	
+					setfpscap(500)	
 				end
 			elseif Args[1] == ".crash" and Args[2] == "encrypt" and not Crashed then
 				local Player = GetPlayerFromString(Args[3],true)
